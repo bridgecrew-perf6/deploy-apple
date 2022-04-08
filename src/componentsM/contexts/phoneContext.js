@@ -9,8 +9,8 @@ const INIT_STATE = {
   models: [],
 };
 
-const API = "http://localhost:8000/products";
-const API_ORDERS = "http://localhost:8000/order";
+const API = "https://deploy-apple.herokuapp.com/products";
+const API_ORDERS = "https://deploy-apple.herokuapp.com/order";
 
 const reducer = (state = INIT_STATE, action) => {
   switch (action.type) {
